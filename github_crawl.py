@@ -7,8 +7,8 @@ from selenium.common.exceptions import NoSuchElementException
 # 제목
 name = '프로야구생존기'
 # 몇화까지
-ep_start = 190
-ep_end = 190
+ep_start = 1
+ep_end = 100
 ep_idx = 0
 
 # 첫화 URL
