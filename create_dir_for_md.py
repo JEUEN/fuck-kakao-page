@@ -14,8 +14,10 @@ def main():
     # 디렉토리 이름
     target_dir = "[md] 프로야구 생존기"
 
+    new_ep = 191
+
     # 만들 총 에피소드 범위, 0 index
-    start_idx, end_idx = 190, 191
+    start_idx, end_idx = new_ep - 1, new_ep
 
     # 이미 디렉토리가 있는지 확인
     if not os.path.exists(target_dir):
@@ -24,8 +26,8 @@ def main():
     # 마크다운 파일 생성
     for i in range(start_idx, end_idx):
         filename = os.path.join(target_dir, f'{i+1:03d}') + '.md'
-        # open(filename, 'x')
-        print(filename)
+        open(filename, 'x')
+        # print(filename)
 
     
 
