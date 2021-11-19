@@ -14,7 +14,7 @@ def main():
     # 디렉토리 이름
     target_dir = "[md] 프로야구 생존기"
 
-    new_ep = 191
+    new_ep = 192
 
     # 만들 총 에피소드 범위, 0 index
     start_idx, end_idx = new_ep - 1, new_ep

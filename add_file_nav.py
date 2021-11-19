@@ -16,7 +16,7 @@ def main():
     # 해당 디렉토리의 모든 파일
     dirs = os.listdir(target_dir)
     # 가장 최근 에피소드
-    latest = 191
+    latest = 192
 
     # For New
     if NEW_EPISODE:
