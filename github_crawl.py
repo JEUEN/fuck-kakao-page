@@ -3,6 +3,7 @@ from selenium import webdriver
 import urllib
 import urllib.request
 from selenium.common.exceptions import NoSuchElementException
+import argparse
 
 # Global Var for New Episode handling
 NEW_EP = True

@@ -7,7 +7,7 @@ https://camo.githubusercontent.com/ 를 이용해서 익명 URL 프록시를 만
 만약 IP 차단을 먹었다고 해도 이 방식으로 우회가 가능하다. camo에 의한 프록시가 kakao에 이미지 파일을 요청할때 나의 IP를 사용하지 않기 때문이다.
 """
 
-import os
+import os, argparse
 
 def main():
 
