@@ -17,7 +17,7 @@ name = '프로야구생존기'
 ep_start = 1
 ep_end = 1
 ep_idx = 0
-new_ep = 195
+new_ep = 196
 
 # 첫화 URL
 if NEW_EP:
