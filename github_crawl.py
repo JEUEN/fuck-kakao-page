@@ -17,7 +17,7 @@ name = '프로야구생존기'
 ep_start = 1
 ep_end = 1
 ep_idx = 0
-new_ep = 197
+new_ep = 214
 
 # 첫화 URL
 if NEW_EP:
@@ -52,7 +52,7 @@ if NEW_EP:
         img_num = img_num + 1
 
 else:
-    links = ['https://github.com/seungkilee-cs/fuck-kakao-page/blob/master/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%EC%83%9D%EC%A1%B4%EA%B8%B0/' + f'{x:03}' + '.md' for x in range(ep_start, ep_end+1)]
+    links = ['https://github.com/seungkilee-cs/fuck-kakao-page/blob/master/%5Bmd%5D%20%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%20%EC%83%9D%EC%A1%B4%EA%B8%B0/' + f'{x:03}' + '.md' for x in range(ep_start, ep_end+1)]
 
     for ep in range(ep_start, ep_end+1):
         print(str(ep) + '화를 다운로드 중 ...')
